@@ -14,7 +14,7 @@ jobs:
         id: compile
         uses: rust-build/rust-build.action@v1.3.2
         with:
-          RUSTTARGET: x86_64-unknown-linux-musl
+          RUSTTARGET: wasm32-wasi
           UPLOAD_MODE: none
       - name: Upload artifact
         uses: actions/upload-artifact@v3
