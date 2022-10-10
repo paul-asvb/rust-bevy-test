@@ -2520,6 +2520,7 @@ name = "rust-bevy-test"
 version = "0.1.0"
 dependencies = [
  "bevy",
+ "bevy_reflect_derive",
 ]
 
 [[package]]
